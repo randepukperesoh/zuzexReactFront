@@ -1,9 +1,9 @@
 import io from 'socket.io-client';
 
-export const socket = io('http://localhost:3000',{
+export const socket = io('https://zuzexback.onrender.com',{
         transports: ['websocket'], 
-        withCredentials: true, 
+        withCredentials: true,
         extraHeaders: {
-            'Access-Control-Allow-Origin': 'http://localhost:5173',
+            'Access-Control-Allow-Origin': 'https://zuzexback.onrender.com',
         }
-    });
+});
