@@ -1,0 +1,44 @@
+.messageWrapper{
+    border-radius: 13px;
+    background-color: #F4F4F7;
+    color: rgba(0, 0, 0, 0.85);
+    position: relative;
+    max-width: 60vw;
+    width: max-content;
+    word-wrap: break-word;
+    padding: 8px;
+    display: flex;
+    .avatar{
+        position: absolute;
+        left: -30px;
+        border-radius: 50%;
+    }
+    .userLabel{
+        position: absolute;
+        top: -13px;
+        left: 15px;
+        font-size: 12px;
+        width: max-content;
+    }
+    .message{
+        font-size: 14px;
+        margin: 0;
+        position: relative;
+        left: 0;
+        text-align: left;
+    }
+    .myMessage{
+        position: relative;
+        right: 0;
+    }
+}
+
+.my {
+    align-self: flex-end; 
+    margin: 15px 50px 30px 0;
+}
+
+.another {
+    align-self: flex-start; 
+    margin: 25px 0 0 50px;
+}

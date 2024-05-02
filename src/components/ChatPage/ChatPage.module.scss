@@ -1,0 +1,15 @@
+.chatPage{
+    width: 100vw;
+    height: 100vh;
+    
+    .chatWrapper{
+        height: 87vh;
+        width: 100vw;
+        overflow-y: auto;
+        background-color: #FAFAFA;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
